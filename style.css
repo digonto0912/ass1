@@ -83,12 +83,37 @@ section{
 .bold-text-center{
     text-align: center;
     margin-top:60px;
+    color: rgb(88, 87, 87);
 }
 
 .normal-text-center{
     text-align: center;
+    color: rgb(121, 120, 120);
     margin-top:30px;
     margin-left:400px;
     margin-right:400px;
-    margin-bottom:30px;
+    margin-bottom:0px;
+}
+.all-recipie-box{
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:10px;
+}
+
+.all-recipie-box img{
+    width:100%
+}
+
+.all-recipie-box div{
+    width:97%
+}
+
+.box-border{
+    box-shadow:0px 0px 10px 0.1px rgb(153, 153, 153);
+    border-radius:25px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 30px;
 }
