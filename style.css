@@ -4,6 +4,38 @@ body{
     padding:0;
 }
 
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    background-color:none;
+    margin-left:40px;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    padding:10px 16px;
+    border:2.5px solid tomato;
+    border-radius: 200px;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+li a:hover{
+    background-color: tomato;
+    border-radius: 100px;
+    color:white;
+}
+
+
 #word-color-tomato{
     color:rgb(255, 103, 76);
 }
