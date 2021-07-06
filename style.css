@@ -16,7 +16,7 @@ h1{
     background-image: linear-gradient(rgb(255, 139, 72), rgb(255, 38, 0));
     border-style:none;
     height: 45px;
-    width: 120px;
+    width: 130px;
     border-radius: 50px;
     color:rgba(255, 255, 255, 0.945);
     box-shadow:0px 1px 10px rgba(255, 38, 0, 0.459);
@@ -54,4 +54,41 @@ section{
 
 #sec-2-bg{
     background-image: url(food-network-main/food-network-main/images/shapes/7.png);
+    background-repeat:no-repeat;
+}
+
+#button-2nd{
+    margin-top:50px;
+}
+
+.half2{
+    width:34%;
+}
+
+.half2 img{
+    width:50%;
+}
+#img2{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#text2{
+    margin-top: 100px;
+    margin-left:0px;
+    margin-right:200px;
+    margin-bottom:30px;
+}
+
+.bold-text-center{
+    text-align: center;
+    margin-top:60px;
+}
+
+.normal-text-center{
+    text-align: center;
+    margin-top:30px;
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom:30px;
 }
